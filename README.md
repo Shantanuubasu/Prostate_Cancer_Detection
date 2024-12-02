@@ -72,4 +72,61 @@ In this project, Python, alongside essential libraries like Pandas, NumPy, Matpl
  machine learning models, including neural networks for tasks such as image
  recognition, natural language processing, and more.
 
+## Problem Statement / Requirement Specifications
+ We developed a hybrid CNN model with hyperparameter tuning, employing ReLU
+ and Softmax activation functions. This enhanced model significantly improved
+ performance, achieving a final accuracy of 78.57%.
+
+ ### Project Planning
+ 1.
+ Define Objectives: Clearly outline the project's goal, such as
+ developing a convolution neural network model to classify patients with
+ Prostate Cancer.
+ 2.
+ Data Collection: A dataset of MRI scans of prostate glands,was
+ collected from a reliable medical institution
+ 3.
+ Data Preprocessing: Cleanse and preprocess the data to handle
+ missing values, outliers, and normalize features for better model
+ performance.
+ 4.
+ Model Selection: Choose an appropriate support vector machine
+ algorithm and kernel type based on the nature of the data and desired
+ outcomes.
+ 5.
+ Hyperparameter Tuning: Optimize the model's hyperparameters
+ using techniques like grid search or random search to enhance its
+ predictive capabilities.
+ 6.
+ Training: Train the support vector machine model on a portion of
+ the dataset, ensuring sufficient data for both training and validation.
+ 7.
+ Evaluation: Assess the model's performance using appropriate
+ evaluation metrics such as accuracy, precision, recall, and F1-score.
+ 8.
+ Validation: Validate the model's performance on an independent
+ dataset to confirm its generalization ability and robustness.
+ 9.
+ Deployment: Deploy the trained model into a production
+ environment, ensuring seamless integration with end-user systems or
+ applications.
+10.
+ Monitoring and Maintenance: Continuously monitor the model's
+ performance in real-world settings and update it periodically to adapt to
+ changing data patterns or requirements.
+
+### System Design
+
+#### Design Constraints
+
+##### Hardware requirements:
+
+Memory: 8 GB RAM
+Free Storage: 4 GB (SSD Recommended)
+Screen Resolution: 1920 x 800
+OS: Windows 10 (64-bit)
+CPU: Intel Core i5-8400 3.0 GHz or better
+
+##### System Architecture OR Block Diagram:
+<img width="165" alt="image" src="[https://github.com/Shantanuubasu/Minor_Project_Parkinsons_detection/assets/97277717/437e78b6-56bc-45ad-afd5-1fd8020dbfce](https://github.com/Shantanuubasu/Prostate_Cancer_Detection/blob/main/model_architecture.png)">
 
